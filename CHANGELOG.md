@@ -1,3 +1,17 @@
+# [1.1.0-next.2](https://github.com/phanuwatph/semantic-release-test/compare/v1.1.0-next.1...v1.1.0-next.2) (2025-08-14)
+
+
+### Features
+
+* **pencil:** Add feature 2 ([1ef33b0](https://github.com/phanuwatph/semantic-release-test/commit/1ef33b0fd67c53401a24eec39873d08b48371d2a))
+
+# [1.1.0-next.1](https://github.com/phanuwatph/semantic-release-test/compare/v1.0.0...v1.1.0-next.1) (2025-08-14)
+
+
+### Features
+
+* add feature 1 ([92d1612](https://github.com/phanuwatph/semantic-release-test/commit/92d1612f7d9892c2d87e14f4d37825739e168b4b))
+
 # 1.0.0 (2025-08-14)
 
 
