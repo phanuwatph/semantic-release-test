@@ -1,0 +1,29 @@
+{
+  "name": "semantic-release-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phanuwatph/semantic-release-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phanuwatph/semantic-release-test/issues"
+  },
+  "homepage": "https://github.com/phanuwatph/semantic-release-test#readme",
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  },
+  "devDependencies": {
+    "semantic-release": "^24.2.7"
+  }
+}
