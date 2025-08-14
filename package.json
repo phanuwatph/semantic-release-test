@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phanuwatph/semantic-release-test.git"
+    "url": "git@github.com:phanuwatph/semantic-release-test.git"
   },
   "keywords": [],
   "author": "",
@@ -20,10 +20,23 @@
   "release": {
     "branches": [
       "main",
-      "next"
+      {
+        "name": "next",
+        "channel": "next",
+        "prerelease": "next"
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
     ]
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^24.2.7"
   }
 }
