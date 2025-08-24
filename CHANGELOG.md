@@ -1,3 +1,10 @@
+# [1.2.0-next.4](https://github.com/phanuwatph/semantic-release-test/compare/v1.2.0-next.3...v1.2.0-next.4) (2025-08-24)
+
+
+### Bug Fixes
+
+* move to releaserc.json ([d362a50](https://github.com/phanuwatph/semantic-release-test/commit/d362a50a9c814f3611c665c7c62143c801719be8))
+
 # [1.2.0-next.3](https://github.com/phanuwatph/semantic-release-test/compare/v1.2.0-next.2...v1.2.0-next.3) (2025-08-24)
 
 
