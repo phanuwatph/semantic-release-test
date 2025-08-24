@@ -18,34 +18,6 @@
     "url": "https://github.com/phanuwatph/semantic-release-test/issues"
   },
   "homepage": "https://github.com/phanuwatph/semantic-release-test#readme",
-  "release": {
-    "branches": [
-      "main",
-      {
-        "name": "next",
-        "channel": "next",
-        "prerelease": "next"
-      }
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/github",
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "package.json",
-            "package-lock.json",
-            "CHANGELOG.md"
-          ],
-          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ]
-    ]
-  },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.1",
