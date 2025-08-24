@@ -1,3 +1,10 @@
+# [1.2.0-next.3](https://github.com/phanuwatph/semantic-release-test/compare/v1.2.0-next.2...v1.2.0-next.3) (2025-08-24)
+
+
+### Bug Fixes
+
+* re-add npm ([206ceeb](https://github.com/phanuwatph/semantic-release-test/commit/206ceeb51aa73787ea7428bac4f13e04f5cb49e9))
+
 # [1.2.0-next.2](https://github.com/phanuwatph/semantic-release-test/compare/v1.2.0-next.1...v1.2.0-next.2) (2025-08-24)
 
 
